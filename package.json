@@ -15,7 +15,7 @@
     "test": "jest --watch",
     "test:once": "jest"
   },
-  "author": "Cleber",
+  "author": "Plus Software",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -25,6 +25,9 @@
     "url": "https://github.com/plussoft-zz/ballon-theme.git"
   },
   "homepage": "https://github.com/plussoft-zz/ballon-theme#readme",
+  "publishConfig": {
+    "access": "public"
+  },
   "peerDependencies": {
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
