@@ -46,7 +46,22 @@ export default {
       }
     }),
     sass({
-      insert: true
+      insert: true,
+      include: "**/*.scss",
+      exclude: [],
+      options: {
+        importer(url /*, prev */) {
+          // E.g. @import '~ckeditor5-theme-lark/theme/theme.scss';
+          // See https://github.com/jtangelder/sass-loader#imports
+          if (url.startsWith("~")) {
+            const path = process.cwd() + "/node_modules/" + url.slice(1);
+
+            return {
+              file: path
+            };
+          }
+        }
+      }
     })
   ]
 };
