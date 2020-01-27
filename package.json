@@ -16,7 +16,7 @@
     "test:once": "jest"
   },
   "author": "Plus Software",
-  "license": "ISC",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/plussoft-zz/ballon-theme.git"
