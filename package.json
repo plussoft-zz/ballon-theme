@@ -1,5 +1,5 @@
 {
-  "name": "@ballon/theme",
+  "name": "ballon-theme",
   "version": "1.0.0",
   "description": "",
   "main": "build/index.js",
