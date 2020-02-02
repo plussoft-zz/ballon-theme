@@ -1,6 +1,6 @@
 import { createMuiTheme } from "@material-ui/core/styles";
 
-const theme = createMuiTheme({
+export default createMuiTheme({
   props: {
     // Name of the component ⚛️
     MuiTab: {
@@ -8,10 +8,8 @@ const theme = createMuiTheme({
       disableRipple: true
     },
     MuiButtonBase: {
-      // The default props to change
-      disableRipple: true
+      // The properties to apply
+      disableRipple: true // No more ripple, on the whole application!
     }
   }
 });
-
-export default theme;
