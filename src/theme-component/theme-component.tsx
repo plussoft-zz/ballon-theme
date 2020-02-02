@@ -6,6 +6,10 @@ const theme = createMuiTheme({
     MuiTab: {
       // The default props to change
       disableRipple: true
+    },
+    MuiButtonBase: {
+      // The default props to change
+      disableRipple: true
     }
   }
 });
