@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 import { withStyles } from "@material-ui/core/styles";
-import Button from "@material-ui/core/Button";
+import { Button as MDButton } from "@material-ui/core";
 
 const CustomButton = withStyles({
   root: {
@@ -17,12 +17,12 @@ const CustomButton = withStyles({
       boxShadow: "none"
     }
   }
-})(Button);
+})(MDButton);
 
 interface IProps {}
 
-const ButtonComponent: FC<IProps> = props => {
+const Button: FC<IProps> = props => {
   return <CustomButton {...props} />;
 };
 
-export default ButtonComponent;
+export default Button;

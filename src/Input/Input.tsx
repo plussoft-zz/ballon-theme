@@ -12,6 +12,6 @@ const TextFieldCustom = withStyles({
   }
 })(TextField);
 
-const InputComponent: FC<IProps> = props => <TextFieldCustom {...props} />;
+const Input: FC<IProps> = props => <TextFieldCustom {...props} />;
 
-export default InputComponent;
+export default Input;

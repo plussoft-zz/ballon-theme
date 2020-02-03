@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import Button from "./button-component";
+import Button from "./Button";
 import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles(theme => ({

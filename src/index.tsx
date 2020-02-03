@@ -1,3 +1,4 @@
-export { default as Button } from "./button-component";
-export { default as Input } from "./input-component";
-export { default as theme } from "./theme-component";
+export { default as Button } from "./Button";
+export { default as Input } from "./Input";
+export { default as theme } from "./Theme";
+export { default as Action } from "./Action";
