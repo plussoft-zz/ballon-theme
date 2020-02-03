@@ -36,7 +36,7 @@ const ActionToolbar: FC<IProps> = ({ title, onClose }) => {
           <CloseIcon fontSize="inherit" />
         </IconButton>
 
-        <Typography>{title}</Typography>
+        <Typography variant="button">{title}</Typography>
       </div>
       <Divider />
     </div>
